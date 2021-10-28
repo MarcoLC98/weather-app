@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Mostrar from "./Mostrar";
 
 const Formulario = () => {
+
   const [validacion, set_validacion] = useState(false);
 
   const [err_msg, set_err_msg] = useState(false);
